@@ -15,7 +15,7 @@ const PrivateRoutes = ({ children }) => {
   }
 
   // If not authenticated, redirect to login and pass the attempted path (location.pathname)
-  return user ? children : <Navigate state={location.pathname} to="/login" />;
+  return user ? children  : <Navigate state={location.pathname} to="/login" />;
 };
 
 export default PrivateRoutes;

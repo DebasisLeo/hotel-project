@@ -22,7 +22,7 @@ const MyBookingsPage = () => {
   useEffect(() => {
     if (user) {
       axios(`https://hotel-server-flax.vercel.app/bookings?userEmail=${user.email}`,{withCredentials:true})
-        .then(res => {
+        .then( res => {
           setBookings(res.data);
           // Fetch room data for each booking
           res.data.forEach((booking) => {

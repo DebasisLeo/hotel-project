@@ -222,7 +222,7 @@ const RoomDetailsPage = () => {
               inline
             />
 
-            <div className="mt-4 flex justify-between">
+            <div  className="mt-4 flex justify-between">
               <button
                 onClick={() => setShowModal(false)}
                 className="bg-gray-500 text-white px-4 py-2 rounded-lg"

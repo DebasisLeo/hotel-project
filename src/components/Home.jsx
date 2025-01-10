@@ -91,7 +91,7 @@ const Home = () => {
      
      {/* Typewriter Text */}
 <div 
-  className="mb-8 text-5xl font-extrabold text-transparent bg-clip-text text-white text-center" 
+  className="mb-8  text-5xl font-extrabold text-transparent bg-clip-text text-white text-center" 
   data-aos="fade-up"
 >
   <Typewriter
