@@ -407,10 +407,10 @@ const Home = () => {
       </section>
 
       {/* Featured Rooms Section */}
-      <section className="py-10 px-4 bg-gradient-to-r from-cyan-200 to-pink-300">
+      <section className="py-10 px-4 bg-gradient-to-r from-gray-800 to-cyan-200">
       {/* Animated Heading */}
       <motion.h2
-        className="text-3xl md:text-4xl font-extrabold text-center text-gray-800 mb-10"
+        className="text-3xl md:text-4xl font-extrabold text-center text-white mb-10"
         initial={{ opacity: 0, y: -30 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
